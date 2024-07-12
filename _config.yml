@@ -25,8 +25,8 @@ description              : "Skeat의 개발일지 입니다."
 url                      : "https://qwdltjdals.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "../assets/images/youtube_profile_image.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : "/assets/images/youtube_profile_image.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
