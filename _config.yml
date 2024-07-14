@@ -315,7 +315,7 @@ defaults:
       show_date: true
       toc: true
       toc_sticky: true
-      tod_label: 목차
+      toc_label: 목차
       author_profile: false
 
 date_format: "%Y-%m-%d"
