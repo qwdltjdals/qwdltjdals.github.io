@@ -100,7 +100,7 @@ analytics:
 # Site Author
 author:
   name             : "Skeat"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : /images/aaa.jpg"
   bio              : "Skeat의 개발일지"
   location         : "somewhere on the earth"
   email            : "iu_love@kakao.com"
