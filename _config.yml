@@ -1,4 +1,4 @@
-# minimal_mistakes_skin    : "dark"
+minimal_mistakes_skin    : "dark"
 # Site Settings
 locale                   : "ko-KR"
 title                    : "Skeat Blog"
@@ -309,4 +309,4 @@ defaults:
       related: true
       show_date: true
 
-date_format: "%Y-%m-%d"
+      date_format: "%Y-%m-%d"
