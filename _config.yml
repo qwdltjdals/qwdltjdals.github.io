@@ -14,7 +14,22 @@
 # remote_theme           : "mmistakes/minimal-mistakes"
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+# Site Settings
+locale                   : "ko-KR"
+title                    : "Skeat Blog"
+title_separator          : "|"
+subtitle                 : "Skeat의 개발일지"
+name                     : "Skeat"
+description              : "Skeat의 개발일지"
+url                      : "https://qwdltjdals.github.io"
+baseurl                  : # the subpath of your site, e.g. "/blog"
+repository               : # "teddylee777/minimal-mistakes"
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : "/assets/images/youtube_profile_image.png"
+masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+breadcrumbs              : true
+words_per_minute         : 200
 enable_copy_code_button  : # true, false (default)
 copyright                : # "copyright" name, defaults to site.title
 copyright_url            : # "copyright" URL, defaults to site.url
