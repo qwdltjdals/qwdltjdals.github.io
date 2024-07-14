@@ -1,4 +1,4 @@
-minimal_mistakes_skin    : "dark"
+# minimal_mistakes_skin    : "dark"
 # Site Settings
 locale                   : "ko-KR"
 title                    : "Skeat Blog"
