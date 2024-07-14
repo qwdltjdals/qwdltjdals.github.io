@@ -100,7 +100,7 @@ analytics:
 # Site Author
 author:
   name             : "Skeat"
-  avatar           : /images/aaa.jpg"
+  avatar           : # /images/aaa.jpg"
   bio              : "Skeat의 개발일지"
   location         : "somewhere on the earth"
   email            : "iu_love@kakao.com"
@@ -123,6 +123,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/qw2645"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: # 
 
 # Site Footer
 footer:
