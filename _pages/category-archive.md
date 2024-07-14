@@ -1,5 +1,5 @@
 ---
-title : "category"
+title : "Category"
 layout : "categories"
 parmalink : /categories/
 author_progile : true
