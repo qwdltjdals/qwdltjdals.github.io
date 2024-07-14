@@ -6,10 +6,10 @@
     url : /tags/
 
 
-docs :
-  - title: "대목차"
-    children:
-     - title: "Category"
+  docs :
+    - title: "대목차"
+      children:
+    - title: "Category"
       url: /categories/
     - title: "Tag"
       url: /tags/
