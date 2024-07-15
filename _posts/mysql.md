@@ -8,3 +8,7 @@ tag : [DBMS, mysql, 클라우드]
 
 
 #  mysql 설치
+ㅇㅇㅇㅇ
+ㅇㅇ
+ㅇ
+ㅇㅇㅇ
