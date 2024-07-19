@@ -4,3 +4,25 @@ title:  "MVC 패턴 정리"
 categories : 코딩
 tag : [스프링부트, MVC]
 ---
+
+
+model1 = JSP만 사용(model, view가 포함됨)
+model2 = script를 최상단으로 올려서 자바와 html을 분리시킴 / JSTL등장
+model3 = 컨트롤러 등장 - 이전에는 서블릿이 컨트롤러의 역할 / view는 JSP
+
+========스프링 부트==========
+
+클라이언트 - 요청(tomcat) - HttpServlerRequest 생성 -> 호출(디스페쳐 서블릿) -> 핸들러 맵핑 -> 서버스캔, 리스트 정렬 -> 디스페쳐 서블릿에 리턴(호출해야 하는 메소드) -> 컨트롤러에 호출 ->
+(ModelAndView = 모델, 뷰를 묶어서 하나의 객체로 만듦 -> 원래 디스페쳐 서블릿에 가지고 있던 model에 대입) or (스트링으로 리턴할 때 = viewName 리턴) -> view resolver -> view라는 객체를 생성/ 생성에는 모델과 HTML file이 필요함 -> HTML리턴
+
+페이지의 정보를 담는것 = model
+view에 model정보를 담아줌 model은 Object형태로 들어감
+그model 정보들 중에서 필요한 것 꺼내서 사용함(key-velue 형태) 
+model = map?
+
+
+request - header    -> 요청정보 - 메소드, URL, 서버IP, 서버PORT
+        - body      -> 요청데이터 - 파라미터
+
+response    - header -> 응답정보 - 쿠키정보, 응답컨텐츠(데이터값들)타입
+            - body -> 응답데이터 - JSON, HTML
